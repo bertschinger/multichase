@@ -32,7 +32,7 @@ ifeq ($(ARCH),aarch64)
 endif
 
 #TODO: convert use submodule instead of this stanza
-CURSOR_HEAP_URL=https://github.com/jagalactic/cursor_heap.git
+CURSOR_HEAP_URL=https://github.com/bertschinger/cursor_heap.git
 cursor_heap:
 	git clone $(CURSOR_HEAP_URL)
 
